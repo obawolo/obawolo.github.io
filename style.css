@@ -185,6 +185,14 @@ button:hover{
     background-color: #7f00ff;
 }
 
+button:link{
+    text-decoration: none;
+}
+
+button:active{
+    text-decoration: none;
+}
+
 .imgbox{
     position: relative;
     width: 100%;
@@ -271,4 +279,9 @@ button:hover{
         width: 130%;
         height: 100%;
     }
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
